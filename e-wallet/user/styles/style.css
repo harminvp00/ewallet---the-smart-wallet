@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav{
+    height: 60px;
+}
+
+#logo {
+    position: absolute;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#total-amount-box{
+    display: flex;
+    align-items: center;
+}
+#edit-text-btn{
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#table{
+    position: relative;
+    z-index: 10;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+
+#data-analysis-view {
+    position: relative;
+    height: 280px;
+}
+
+.customWarning {
+    font-size: 13px;
+}
+
+#Transaction-data {
+    top: 43px;
+}
+
+#spendCatagory .bg-image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#btn-icon{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#tracsaction-list{
+   width: 95%;
+   margin: 0 auto;
+}
+
+#tracsaction-list .card{
+    margin: 5px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    /* for : top/right/bottom/left  */
+    padding: 10px 10px 10px 20px;
+}
+
+#tracsaction-list .card .category-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tracsaction-list .card .details{
+    display: flex;
+    align-items: center;
+}
+#tracsaction-list img{
+    width: 80px;
+    height: 80px;
+}
+
